@@ -1,0 +1,557 @@
+#div1{
+    background-image:url("Images/background.PNG") ;
+    width: 100%;
+    height: 100%;
+}
+/* nav bar */
+#logo{
+    width: 100px;
+}
+
+/* sections */
+section{
+    color:white;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p1{
+    color: rgb(255, 115, 0);
+    font-size: 50px;
+    text-align: center;
+    /* margin-top: 20px; */
+    /* padding-top: 50px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 ,#p1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 115, 0);
+    text-align: center;
+}
+/* about */
+#about{
+    margin-top: 50px;
+}
+#about>#aboutp{
+    background-color: black;
+    color:white ;
+    width: 100%;
+    height: 650px;
+    font-family:'Courier New', Courier, monospace ;
+    padding-top: 180px;
+    padding-left: 50px;
+    padding-right: 800px;
+}
+
+#name{
+    color: rgb(255, 115, 0);
+}
+
+#pic1{
+    width: 450px;
+    height: 500px;
+    float: right;
+    margin: 50px;
+}
+/* education */
+#education{
+    background-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 30px;
+    margin-top: 100px;
+    height: 500px;
+}
+#epar{
+    text-align: left;
+    margin-top: 150px;
+    font-size: 18px;
+    /* margin-left: 100px; */
+}
+#upic{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 80px;
+    margin-left: 280px;
+    margin-top: 80px;
+}
+
+/* experience */
+#Experience{
+    background-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 30px;
+    margin-top: 100px;
+    height: 600px;
+}
+#ex1, #ex2{
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+    width: 25%;
+    height: 350px;
+    margin-left: 250px;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+
+/* certificate */
+#certificate{
+    background-color: black;
+    text-align: center;
+    border: 1px solid white;
+    /* width: 80%; */
+    height: 600px;
+    padding-top: 30px;
+    margin: 30px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+#cer{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#arduino{
+    width: 150px;
+    height: 150px;
+}
+#drupal{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 110px;
+    height: 100px;
+}
+#comp{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+
+/* skills */
+#skills,#ref,#lang{
+    display: block;
+    /* border: 1px solid white; */
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 30px;
+    margin-top: 100px;
+    height: 700px;
+}
+#technical , #soft{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+    width: 35%;
+    height: 350px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+/* references */
+#ref1{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+    width: 20%;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+#opic{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: 67px;
+    margin-top: 40px;
+}
+#ref>#ennerref>#ref1>p{
+    padding-top: 25px;
+    text-align: center;
+}
+
+/* languages */
+
+#lang1, #lang2{
+    display: block;
+    margin-left: 450px;
+}
+#arabic,#english{
+    width: 400px;
+    height: 20px;
+}
+#lang{
+    /* margin-left: 200px; */
+    margin-top: 90px;
+    border: 1px solid;
+    height: 300px;
+}
+
+
+
+/* footer */
+footer{
+    height: 200px;
+    background-color:#9e8c84;
+    opacity: 0.7;
+    color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    height: 200px;
+}
+footer >div>p> img{
+    width:30px;
+    height: 30px; 
+    float: left;
+    margin-right: 20px;
+}
+#p2{
+    font-size: 40px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-top: 5px; */
+    margin-left: 100px;
+    margin-right: 380px;
+}
+
+
+/* media quiry-tablet */
+@media screen and (min-width: 480px) and (max-width: 768px)
+{ 
+    #logo{
+        width: 60px;
+    }
+    /* sections */
+
+h1 ,#p1{
+    font-size: 35px;
+}
+/* about */
+#about>#aboutp{
+    height: 650px;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 1px;
+}
+#pic1{
+    width: 150px;
+    height: 200px;
+    margin: 50px;
+    margin-top: 30px;
+    margin-right: 250px;
+}
+/* education */
+#education{
+    background-color: black;
+    font-size: 15px;
+}
+#epar{
+    text-align: left;
+    margin-top: 150px;
+    font-size: 18px;
+    /* margin-left: 100px; */
+}
+#upic{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+/* experience */
+#ex1, #ex2{
+    display: inline-block;
+    width: 39%;
+    height: 350px;
+    margin-left: 50px;
+    padding-top: 50px;
+
+}
+#innerex{
+    display: flex;
+    margin: 10px;
+}
+/* certificate */
+#certificate{
+    height: 400px;
+}
+#cer{
+    font-size: 13px;
+    height: 250px;
+    padding: 15px;
+    padding-top: 30px;
+}
+#arduino{
+    width: 90px;
+    height: 90px;
+}
+#drupal{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    /* border-radius: 50%; */
+    width: 80px;
+    height: 80px;
+}
+#comp{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 15px;
+}
+
+
+/* skills */
+#skills{
+    height: 500px;
+}
+#technical , #soft{
+    display: inline-block;
+    width: 47%;
+    height: 300px;
+    font-size: 11px;
+    margin-left: 12px;
+    margin-top: 40px;
+}
+
+/* references */
+#ennerref{
+    display: flex;
+    margin: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    /* margin-top: 10px; */
+}
+#ref{
+    height: 600px;
+}
+#ref>#p1{
+    text-align: center;
+}
+#ref1{
+    /* display: inline-block; */
+    width: 32.5%;
+    height: 400px;
+    margin-top: 90px;
+    margin: 5px;
+}
+#opic{
+    width: 100px;
+    height: 100px;
+    margin-left: 55px;
+    margin-top: 40px;
+}
+#ref>div>p{
+    padding-top: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* languages */
+
+#lang1, #lang2{
+    display: block;
+    margin-left: 150px;
+}
+#arabic,#english{
+    width: 300px;
+    height: 25px;
+}
+#lang{
+    height: 300px;
+}
+/* footer */
+#p2{
+    font-size: 30px;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+}
+/* media quiry-mobile */
+@media screen and (max-width: 479px){
+
+#about,#ref,#education,#Experience,#certificate,#skills,#lang{
+        margin: 10px;
+    }
+
+h1 ,#p1{
+    font-size: 35px;
+}
+/* about */
+#logo{
+        width: 60px;
+    }
+    /* sections */
+
+h1 ,#p1{
+    font-size: 35px;
+}
+/* about */
+#about>#aboutp{
+    height: 650px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 1px;
+}
+#pic1{
+    float: right;
+    width: 50px;
+    height: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    /* margin-right: 250px; */
+}
+
+/* education */
+#education{
+    background-color: black;
+    font-size: 15px;
+}
+#epar{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 18px;
+    /* margin-left: 100px; */
+}
+#upic{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+/* experience */
+#ex1, #ex2{
+    display: inline-block;
+    width: 55%;
+    height: 400px;
+    margin-left: 7px;
+    padding-top: 10px;
+
+}
+#innerex{
+    display: flex;
+    margin: 10px;
+}
+/* certificate */
+#certificate{
+    height: 400px;
+}
+#cer{
+    font-size: 13px;
+    height: 250px;
+    padding: 15px;
+    padding-top: 30px;
+}
+#arduino{
+    width: 90px;
+    height: 90px;
+}
+#drupal{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    /* border-radius: 50%; */
+    width: 80px;
+    height: 80px;
+}
+#comp{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 15px;
+}
+
+
+/* skills */
+#skills{
+    height: 500px;
+}
+#inners{
+    display: flex;
+    margin: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+#technical , #soft{
+    display: inline-block;
+    width: 47%;
+    height: 350px;
+    font-size: 11px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+/* references */
+#ennerref{
+    display: flex;
+    margin: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    /* margin-top: 10px; */
+}
+#ref{
+    height: 500px;
+}
+#ref>#p1{
+    text-align: center;
+}
+.pclass{
+    font-size: 10px;
+}
+#ref1{
+    /* display: inline-block; */
+    width: 34%;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 1px;
+}
+#opic{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+/* #ref>div>p{
+    padding-top: 25px;
+    font-size: 15px;
+    text-align: center;
+} */
+
+/* languages */
+
+#lang1, #lang2{
+    display: block;
+    margin-left: 55px;
+}
+#arabic,#english{
+    width: 100px;
+    height: 15px;
+}
+#lang{
+    height: 300px;
+}
+/* footer */
+#p2{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+}
