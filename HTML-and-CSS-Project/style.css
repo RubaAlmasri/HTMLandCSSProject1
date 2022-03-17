@@ -18,8 +18,6 @@ section{
     color: rgb(255, 115, 0);
     font-size: 50px;
     text-align: center;
-    /* margin-top: 20px; */
-    /* padding-top: 50px; */
     font-family: 'Times New Roman', Times, serif;
 }
 h1 ,#p1{
@@ -46,7 +44,7 @@ h1 ,#p1{
     color: rgb(255, 115, 0);
 }
 
-#pic1{
+#pic1> img{
     width: 450px;
     height: 500px;
     float: right;
@@ -65,14 +63,13 @@ h1 ,#p1{
     text-align: left;
     margin-top: 150px;
     font-size: 18px;
-    /* margin-left: 100px; */
 }
 #upic{
     float: left;
     width: 200px;
     height: 200px;
     margin: 80px;
-    margin-left: 280px;
+    margin-left: 400px;
     margin-top: 80px;
 }
 
@@ -104,7 +101,6 @@ h1 ,#p1{
     background-color: black;
     text-align: center;
     border: 1px solid white;
-    /* width: 80%; */
     height: 600px;
     padding-top: 30px;
     margin: 30px;
@@ -115,11 +111,13 @@ h1 ,#p1{
     background-color: white;
     color: black;
     border-radius: 15px;
+    width: 80%;
     height: 400px;
     padding: 30px;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    margin-left: 170px;
 }
 #arduino{
     width: 150px;
@@ -141,7 +139,6 @@ h1 ,#p1{
 /* skills */
 #skills,#ref,#lang{
     display: block;
-    /* border: 1px solid white; */
     background-color: black;
     border: 1px solid white;
     border-radius: 15px;
@@ -195,7 +192,6 @@ h1 ,#p1{
     height: 20px;
 }
 #lang{
-    /* margin-left: 200px; */
     margin-top: 90px;
     border: 1px solid;
     height: 300px;
@@ -211,7 +207,6 @@ footer{
     color: black;
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
     height: 200px;
 }
 footer >div>p> img{
@@ -224,7 +219,6 @@ footer >div>p> img{
     font-size: 40px;
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    /* margin-top: 5px; */
     margin-left: 100px;
     margin-right: 380px;
 }
@@ -248,7 +242,7 @@ h1 ,#p1{
     padding-left: 10px;
     padding-right: 1px;
 }
-#pic1{
+#pic1>img{
     width: 150px;
     height: 200px;
     margin: 50px;
@@ -264,7 +258,6 @@ h1 ,#p1{
     text-align: left;
     margin-top: 150px;
     font-size: 18px;
-    /* margin-left: 100px; */
 }
 #upic{
     float: left;
@@ -305,7 +298,6 @@ h1 ,#p1{
 #drupal{
     margin-top: 10px;
     margin-bottom: 5px;
-    /* border-radius: 50%; */
     width: 80px;
     height: 80px;
 }
@@ -336,7 +328,6 @@ h1 ,#p1{
     margin: 10px;
     margin-left: 1px;
     margin-right: 1px;
-    /* margin-top: 10px; */
 }
 #ref{
     height: 600px;
@@ -345,7 +336,6 @@ h1 ,#p1{
     text-align: center;
 }
 #ref1{
-    /* display: inline-block; */
     width: 32.5%;
     height: 400px;
     margin-top: 90px;
@@ -400,19 +390,23 @@ h1 ,#p1{
     /* sections */
 
 h1 ,#p1{
-    font-size: 35px;
+    font-size: 30px;
 }
 /* about */
 #about>#aboutp{
-    height: 650px;
+    height: 350px;
     padding-top: 30px;
     padding-left: 10px;
     padding-right: 1px;
+    font-size: small;
 }
-#pic1{
+#about>#aboutp>h2,h5{
+    font-size: large;
+}
+#pic1>img{
     float: right;
-    width: 50px;
-    height: 10px;
+    width: 130px;
+    height: 140px;
     margin: 10px;
     margin-top: 30px;
     /* margin-right: 250px; */
@@ -426,25 +420,26 @@ h1 ,#p1{
 #epar{
     text-align: center;
     margin-top: 150px;
-    font-size: 18px;
+    font-size: 13px;
     /* margin-left: 100px; */
 }
 #upic{
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: 60px;
     margin-left: 80px;
-    margin-top: 10px;
+    margin-top: 80px;
 }
 
 /* experience */
 #ex1, #ex2{
     display: inline-block;
-    width: 55%;
+    width: 65%;
     height: 400px;
     margin-left: 7px;
     padding-top: 10px;
+    font-size: 12px;
 
 }
 #innerex{
@@ -456,25 +451,25 @@ h1 ,#p1{
     height: 400px;
 }
 #cer{
-    font-size: 13px;
+    font-size: 10px;
     height: 250px;
     padding: 15px;
     padding-top: 30px;
 }
 #arduino{
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
 }
 #drupal{
     margin-top: 10px;
     margin-bottom: 5px;
-    /* border-radius: 50%; */
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
 }
 #comp{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
     margin-top: 15px;
 }
@@ -492,9 +487,9 @@ h1 ,#p1{
 }
 #technical , #soft{
     display: inline-block;
-    width: 47%;
+    width: 45%;
     height: 350px;
-    font-size: 11px;
+    font-size: 10px;
     margin-left: 12px;
     margin-top: 10px;
 }
@@ -505,7 +500,6 @@ h1 ,#p1{
     margin: 10px;
     margin-left: 1px;
     margin-right: 1px;
-    /* margin-top: 10px; */
 }
 #ref{
     height: 500px;
@@ -517,7 +511,6 @@ h1 ,#p1{
     font-size: 10px;
 }
 #ref1{
-    /* display: inline-block; */
     width: 34%;
     height: 300px;
     margin-top: 30px;
@@ -526,15 +519,9 @@ h1 ,#p1{
 #opic{
     width: 50px;
     height: 50px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 40px;
 }
-/* #ref>div>p{
-    padding-top: 25px;
-    font-size: 15px;
-    text-align: center;
-} */
-
 /* languages */
 
 #lang1, #lang2{
